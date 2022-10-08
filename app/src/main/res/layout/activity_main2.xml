@@ -38,7 +38,7 @@
         app:layout_constraintTop_toBottomOf="@+id/seekBar" />
 
     <Button
-        android:id="@+id/start_indicator"
+        android:id="@+id/start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="65dp"
@@ -49,14 +49,14 @@
         app:layout_constraintTop_toBottomOf="@+id/seekBar" />
 
     <Button
-        android:id="@+id/stop_indicator"
+        android:id="@+id/stop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="98dp"
         android:layout_marginTop="130dp"
         android:backgroundTint="#F44336"
         android:text="Stop"
-        app:layout_constraintStart_toEndOf="@+id/start_indicator"
+        app:layout_constraintStart_toEndOf="@+id/start"
         app:layout_constraintTop_toBottomOf="@+id/seekBar" />
 
     <TextView
@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="201dp"
         android:layout_marginTop="143dp"
-        android:text="0"
+        android:text="Sonuç : 0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/indicator" />
 
@@ -78,4 +78,14 @@
         android:contentDescription="Bizi Puanla"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/seek_text" />
+
+    <Button
+        android:id="@+id/web_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="126dp"
+        android:text="Web View"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar" />
 </androidx.constraintlayout.widget.ConstraintLayout>
